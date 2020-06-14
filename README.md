@@ -29,4 +29,4 @@
 * Cyclically Permute
 ## Lab Assignment 5
 * Array Basic operations Using Pointer:
-_ 1
+- 1
