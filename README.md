@@ -28,6 +28,7 @@
 * Array Spilt
 * Cyclically Permute
 ## Lab Assignment 5
+
 * Array Basic operations Using Pointer:
   * Decleration
   * Initialization
