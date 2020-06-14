@@ -29,7 +29,7 @@
 * Cyclically Permute
 ## Lab Assignment 5
 * Array Basic operations Using Pointer:
-* Decleration
+  * Decleration
 * Initialization
 * Accessing
 * I/O
