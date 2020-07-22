@@ -1,4 +1,4 @@
-#                                                         Design a Double Way Non Circular Linked List
+# Design a Double Way Non Circular Linked List
 ## Structure of Linked List
 ```c
 #include<stdio.h>
@@ -8,6 +8,56 @@ struct node
     int data;
     Node *next;
 };
+```
+## Main Function 
+```c
+int main()
+{
+
+    head=NULL;
+    //printf("Those are the value of queue: ");
+    push (12);
+    push (25);
+    push (26);
+    push (22);
+    push (32);
+    push (45);
+    printf("The ultimate Queue is:\n");
+    display();
+    printf("After Pop the ultimate Queue is:\n");
+    pop();
+    display();
+    top();
+    size();
+}
+```
+## Check List is Empty Or Not:
+```c
+Node *new_node = head;
+  if(head==NULL)
+    {
+        printf("There is no value in the list to pop\n");
+    }
+```
+## DISPLAY
+```c
+void display()
+{
+    if(head==NULL)
+    {
+        printf("There is no element in Queue");
+    }
+    else
+    {
+        Node *temp=head;
+        while(temp!=NULL)
+        {
+            printf("%d ",temp->data);
+            temp=temp->next;
+        }
+        printf("\n");
+    }
+}
 ```
 ## PUSH
 ```c
