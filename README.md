@@ -57,7 +57,7 @@
 
 * Design a priority Queue Data Structure:
   * Empty 
-  * Size 
+  * [Size](size) 
   * Top
   * Push 
   * Pop
