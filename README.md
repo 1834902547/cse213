@@ -89,7 +89,7 @@
 
 ### Design a priority Queue Data Structure:
   * Display
-    * print linked list
+    * Print Linked List
   * EMPTY
   * SIZE
   * TOP
