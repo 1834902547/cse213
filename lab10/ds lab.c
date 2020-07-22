@@ -6,6 +6,25 @@ struct node
     Node *next;
 };
 Node *head;
+int main()
+{
+
+    head=NULL;
+    //printf("Those are the value of queue: ");
+    push (12);
+    push (25);
+    push (26);
+    push (22);
+    push (32);
+    push (45);
+    printf("The ultimate Queue is:\n");
+    display();
+    printf("After Pop the ultimate Queue is:\n");
+    pop();
+    display();
+    top();
+    size();
+}
 void push(int value)
 {
     Node *new_node=(Node*)malloc(sizeof(Node));
@@ -93,22 +112,4 @@ void display()
     }
 }
 
-int main()
-{
 
-    head=NULL;
-    //printf("Those are the value of queue: ");
-    push (12);
-    push (25);
-    push (26);
-    push (22);
-    push (32);
-    push (45);
-    printf("The ultimate Queue is:\n");
-    display();
-    printf("After Pop the ultimate Queue is:\n");
-    pop();
-    display();
-    top();
-    size();
-}
