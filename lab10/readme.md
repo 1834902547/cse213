@@ -1,6 +1,15 @@
-## Priority Queue (Maximum)
-
-### Push Function 
+#                                                         Design a Double Way Non Circular Linked List
+## Structure of Linked List
+```c
+#include<stdio.h>
+typedef struct node Node;
+struct node
+{
+    int data;
+    Node *next;
+};
+```
+## PUSH
 ```c
 void push(int value)
 {
@@ -23,7 +32,7 @@ void push(int value)
 
 }
 ```
-### POP Function 
+## POP
 ```c
 void pop()
 {
@@ -39,7 +48,7 @@ void pop()
     }
 }
 ```
-### Top Function
+## TOP
 ```c
 void top()
 {
@@ -60,7 +69,7 @@ void top()
     }*/
 }
 ```
-### [Size Function](size) 
+## Linked List Size
 ```c
 void size()
 {
