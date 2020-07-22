@@ -53,11 +53,11 @@
     * Two sorted Array
   * Array Split
   * Cyclically permute
-## Lab Assignment 10
+## [Lab Assignment 10](lab10)
 
 * Design a priority Queue Data Structure:
   * Empty 
-  * [Size](size) 
+  * Size
   * Top
   * Push 
   * Pop
