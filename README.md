@@ -53,7 +53,7 @@
     * Two sorted Array
   * Array Split
   * Cyclically permute
-  ## Lab Assignment 6
+## Lab Assignment 6
   
 * Create Link List
 * Declare
