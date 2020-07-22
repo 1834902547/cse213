@@ -87,7 +87,7 @@
 * Insert After
 ## Lab Assignment 10
 
-* Design a priority Queue Data Structure:
+## Design a priority Queue Data Structure:
   * Display
     * print linked list
   * EMPTY
