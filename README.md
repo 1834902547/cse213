@@ -88,8 +88,10 @@
 ## Lab Assignment 10
 
 * Design a priority Queue Data Structure:
-  * Empty 
-  * Size
-  * Top
-  * Push 
-  * Pop
+  * Display
+    * print linked list
+  * EMPTY
+  * SIZE
+  * TOP
+  * PUSH 
+  * POP
