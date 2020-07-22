@@ -53,4 +53,11 @@
     * Two sorted Array
   * Array Split
   * Cyclically permute
+## Lab Assignment 10
 
+* Design a priority Queue data Structure 
+  * Empty 
+  * Size 
+  * Top
+  * Push 
+  * Pop
