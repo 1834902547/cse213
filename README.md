@@ -55,7 +55,7 @@
   * Cyclically permute
 ## Lab Assignment 10
 
-* Design a priority Queue data Structure:
+* Design a priority Queue Data Structure:
   * Empty 
   * Size 
   * Top
