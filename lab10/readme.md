@@ -9,6 +9,52 @@ struct node
     Node *next;
 };
 ```
+## Main Menu
+```c
+ head=NULL;
+    int choice;
+    printf("\n******************Main Menu******************\n");
+        printf("\n==============================================\n\n");
+    while(choice!=6)
+    {
+
+        printf("\t1. PUSH\n");
+        printf("\t2. POP\n");
+        printf("\t3. TOP\n");
+        printf("\t4. SIZE\n");
+        printf("\t5. Display\n");
+        printf("\t6. Exit\n");
+        printf("\nplease!Enter your option:\n");
+
+        scanf("%d",&choice);
+
+        switch(choice)
+        {
+                case 1:
+
+                    push();
+
+                    break;
+                case 2:
+                    pop();
+
+                    break;
+                case 3:
+                    top();
+                    break;
+                case 4:
+                    size();
+                    break;
+                case 5:
+                   display();
+                   break;
+                case 6:
+                    printf("\nExit Completed.\n");
+                    break;
+                default:
+                    printf("\a\nEnter valid choice:\n");
+        }
+ ```
 ## Main Function 
 ```c
 int main()
