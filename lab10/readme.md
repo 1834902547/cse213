@@ -1,3 +1,25 @@
+# INTRODUCTION  
+ 
+ 
+ 
+### Queue is an abstract data structure, somewhat similar to stacks. Unlike stacks a queue is open at both its ends. One end is always used to insert data and the other is used to remove data. Queue follows first in first out methodology, the data item stored first will be accessed first. 
+### A queue is container of a object that are inserted and removed accordingly to the first in first out principle. An excellent example of a queue is a line of students in the food court of the UC. In the queue only two operation are allowed enqueue and dequeue. 
+## There are many functions declared in a linked list. Some of them are giving below: 
+* Push: Push method is used to push an element at the starting of the stack represented by queue. This is similar to the add first method of queue and simply inserts the elements at the first position or top of the queue. 
+* Pop:  Queue pop method pops an elementss from the stack represented by this list. Popping means remove and return the first elements of the list.   
+* Size:  Queue size method is used to get the size of the linked list or the number of elements present in the queue. This method doesn’t take any parameter. This method returns the size or the number of elements present in the queue. 
+* Empty:  Queue should have a “head” pointer. If the head is set to null then it have a zerolength queue. 
+* Top:  In the standard library of classes, the data type queue is an adapter class, meaning that a queue is built on top of other data structure. The underlying structure for a queue could be an array, a vector, and array list, a linked list or any other collection. 
+ 
+ 
+
+ 
+ 
+# USES OF QUEUE 
+### Queue is used when things don’t have to be processed immediately, but have to be processed in first out order like Breadth First Search. This property of queue makes it also useful in following kind of scenarios.  
+* When a resource is shared among multiple consumers, Example include CPU scheduling, Disk scheduling. 
+* When data is transferred asynchronously between two processes. Example include TO, Buffer, popes, file Io, etc. 
+
 # Design a Double Way Non Circular Linked List
 ## Structure of Linked List
 ```c
